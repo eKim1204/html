@@ -1,46 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오늘의 운을 테스트해보세요!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>오늘의 운을 테스트해보세요!</h1>
+    <div class="button-container">
+      <button onclick="checkLuck(1)">매우럭키</button>
+      <button onclick="checkLuck(10)">럭키</button>
+      <button onclick="checkLuck(33)">굳</button>
+      <button onclick="checkLuck(50)">나이스</button>
+    </div>
+    <div class="result-box" id="result"></div>
 
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
-</head>
-<body>
-  <section class="center">
-    <aside class="sidebar"></aside>
-    
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  </section>
-</body>
+    <!-- 수정된 버튼 -->
+    <div class="button-container">
+      <button onclick="checkLuck(100)">해피</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
